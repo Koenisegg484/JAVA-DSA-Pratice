@@ -1,14 +1,9 @@
 import java.util.Scanner;
 
 public class UpperRightTriangle{
-    public void swaps(int a, int b){
-        int temp = a;
-        a = b;
-        b = temp;
-    }
     public static void main(String [] args){
 
-        UpperRightTriangle up = new UpperRightTriangle();
+        // UpperRightTriangle up = new UpperRightTriangle();
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of the matrix : ");
@@ -77,5 +72,7 @@ public class UpperRightTriangle{
             }
             System.out.println();
         }
+        sc.close();
+        // up.close();
     }
 }
