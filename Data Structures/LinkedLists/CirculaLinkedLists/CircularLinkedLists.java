@@ -66,7 +66,7 @@ public class CircularLinkedLists {
                     atBeginning();
                 }else if(pos >= size){
                     atEnd();
-                }else{    
+                }else{
                     node nn = head;
                     int i = 1;
                     while (i<=size){
@@ -151,6 +151,4 @@ public class CircularLinkedLists {
             return;
         }
     }
-
-    
 }

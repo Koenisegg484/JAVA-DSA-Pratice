@@ -1,5 +1,4 @@
 import java.util.LinkedList;
-import java.util.ArrayList;
 
 public class DirectChaining {
     LinkedList<String>[] hashtable;
@@ -8,8 +7,6 @@ public class DirectChaining {
     DirectChaining(int size){
         this.hashtable = new LinkedList[size];
     }
-
-    
     private int modASCIIHashFunction(String word, int m){ //m is the size of the array to be created for storing hash values
 
         char ch[] = word.toCharArray();
@@ -50,7 +47,6 @@ public class DirectChaining {
             System.out.println("The linked list is empty.");
             return false;
         }
-        
         int newIndex = modASCIIHashFunction(word, hashtable.length);
         if(hashtable[newIndex] != null && hashtable[newIndex].contains(word)){
             System.out.println("The String exist in the hash table.");
@@ -72,5 +68,4 @@ public class DirectChaining {
             System.out.println("The word does not exist in the hash table.");
         }
     }
-    
 }

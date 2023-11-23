@@ -2,6 +2,7 @@ public class node{
         public int data;
         public node next;
         // node prev;
+        public node prev;
 
         node(){
             this.next = null;

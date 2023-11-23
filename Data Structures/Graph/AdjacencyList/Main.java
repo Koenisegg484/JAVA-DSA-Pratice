@@ -43,7 +43,7 @@ public class Main {
                 printElements(nodeList);
                 break;
 
-                case 3: 
+                case 3:
                 break;
 
                 default:

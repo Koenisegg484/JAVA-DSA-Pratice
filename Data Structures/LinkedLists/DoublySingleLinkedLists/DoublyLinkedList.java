@@ -26,7 +26,7 @@ public class DoublyLinkedList {
             int i = 1;
             while(trvn != null){
                 System.out.println(i+") "+trvn.data);
-                trvn = trvn.next;            
+                trvn = trvn.next;
                 i++;
             }
         }
@@ -40,7 +40,7 @@ public class DoublyLinkedList {
             int i = 1;
             while(trvn!= null){
                 System.out.println(i+") "+trvn.data);
-                trvn = trvn.prev;            
+                trvn = trvn.prev;
                 i++;
             }
         }

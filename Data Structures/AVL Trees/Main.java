@@ -6,7 +6,6 @@ public class Main{
         Scanner sc = new Scanner(System.in);
         System.out.println("1 Insert node\n2 Level Order Traversal\n3 Delete a node\n4 Delete whole tree\n5 Search using Level order traversal ");
         AVLtree avLtree = new AVLtree();
-        
         int ch = 0;
         do{
             System.out.print("Enter your choice : ");
@@ -43,7 +42,6 @@ public class Main{
                 default:
                 System.out.println("Enter the right choice.");
                 break;
-    
             }
 
         }while(ch != 11);

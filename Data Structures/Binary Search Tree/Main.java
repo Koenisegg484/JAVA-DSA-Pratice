@@ -24,38 +24,30 @@ public class Main{
                     bst.preOrdertraversal(bst.root);
                     System.out.println();
                     break;
-                    
-                    case 3:
-                    bst.postOrdertraversal(bst.root);    
+                case 3:
+                    bst.postOrdertraversal(bst.root);
                     System.out.println();
                     break;
-                    
-                    case 4:
+                case 4:
                     bst.inOrdertraversal(bst.root);
                     System.out.println();
                     break;
-                    
-                    case 5:
+                case 5:
                     bst.levelOrdertraversal();
                     System.out.println();
                     break;
-                
                 case 6:
                     bst.searchLot();
                     break;
-                
-                case 7: 
+                case 7:
                     bst.deletion();
                     break;
-                
                 case 8:
                     bst.deleteTree();
                     break;
-                
                 case 11:
                     System.out.println("Exitting...");
                     return;
-                
                 default:
                     System.out.println("Enter the right choice from the menu.");
             }

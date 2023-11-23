@@ -5,7 +5,7 @@ public class SinglyLinkedLists {
     node head = null;
     node tail = null;
     int size = 0;
-    
+
     void createLinkList(){
         System.out.print("Enter data : ");
         int value = sc.nextInt();

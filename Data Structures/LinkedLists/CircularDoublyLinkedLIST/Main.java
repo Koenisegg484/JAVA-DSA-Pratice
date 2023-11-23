@@ -18,7 +18,6 @@ public class Main {
         System.out.println("8. Delete a node");
         System.out.println("9. Delete whole linked list");
         System.out.println("10. Exit");
-    
         do {
             System.out.print("Enter your choice: ");
             choice = scanner.nextInt();
